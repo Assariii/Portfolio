@@ -1,0 +1,79 @@
+body{
+    background-color: #DED0B6;
+}
+.topbar{
+    background-color: #BBAB8C;
+}
+
+.footer{
+    background-color: #BBAB8C;
+}
+
+.lead{
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.projectheader{
+    background-color: #92C7CF;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.projectbody{
+    background-color: #AAD7D9;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.card-body{
+   
+   background-color: #E5E1DA;
+}
+
+h1{
+    font-family: fantasy;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.img{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    
+}
+.py-3 {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+.my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-end {
+    justify-content: flex-end!important;
+}
+.d-flex{
+    display: flex!important;
+}
+
+.task{
+   
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    
+}
+.featurette-heading {
+    letter-spacing: -.05rem;
+    margin-top: 150px;
+    margin-left: 30px;
+}
